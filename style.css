@@ -1,0 +1,415 @@
+#background {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/493/281/large_2x/yellow-and-brown-gradient-background-free-photo.jpg")
+}
+
+ul {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition:0.3s;
+}
+
+a:hover {
+
+    transform: scale(1.2);
+}
+
+#mainpage {
+    background-color: white;
+    font-family: arial;
+    width: 1100px;
+    height: 750px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    bottom: 100px;
+    border-radius: 50px;
+    box-shadow: 10px 20px 10px;
+    padding: 30px;
+}
+
+
+
+#left {
+    width: 40%;
+    height: 100%;
+}
+
+#right {
+    width: 60%;
+    height: 100%;
+}
+
+#top {
+    display: flex;
+    gap: 100px;
+    height: 85%;
+    width: 100%;
+}
+
+#bottom {
+    height: 25%;
+    width: 100%;
+    margin-top: -50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+#bottomul {
+    width: 110%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#leftul2 {
+    background-color: lightgray;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 12px;
+}
+
+#leftul2 li {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#searchbutton {
+    height: 50px;
+    width: 100px;
+    padding: 0;
+    border-radius: 40px;
+    background-color: rgb(186, 216, 68);
+    border: none;
+    transition:0.3s;
+
+}
+
+#searchbutton:hover {
+    scale:1.2;
+}
+
+#leftul1 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#left {
+    font-size: 20px;
+}
+
+#right {
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/398deebd-45eb-4a3c-84a1-1678ddaee535/d56wkvz-6f05b5db-27d2-4c17-b7f2-4c8db1c8267f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8zOThkZWViZC00NWViLTRhM2MtODRhMS0xNjc4ZGRhZWU1MzUvZDU2d2t2ei02ZjA1YjVkYi0yN2QyLTRjMTctYjdmMi00YzhkYjFjODI2N2YuanBnIn1dXX0.TPkKFiV_HmDFAzcRLCvI-OQmkfnUh5MNGFOI5YOqfJQ);
+    background-size: cover;
+    border-radius: 10px 10px 10px 200px;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+#rightul li {
+    font-size: 14px;
+    padding: 10px;
+    display:flex;
+}
+
+#rightul li a {
+    color: white;
+    
+}
+
+.animalbutton {
+    height: 50px;
+    width: 50px;
+    font-size: 10px;
+    border-radius: 50%;
+    z-index: 2;
+    transition:0.3s;
+
+}
+
+.animalbutton:hover {
+
+    scale:1.2;
+}
+
+
+#dogbutton {
+    background-image: url('https://icons.iconarchive.com/icons/iconarchive/cute-animal/256/Cute-Dog-icon.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: none;
+
+}
+
+#dogbutton::before {
+
+    content: '';
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    z-index: 1;
+
+}
+
+#catbutton {
+    background-image: url('https://icons.iconarchive.com/icons/iconka/meow/256/cat-purr-icon.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: none;
+}
+
+#catbutton::before {
+
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: -2px;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    z-index: 1;
+
+}
+
+#birdbutton {
+    background-image: url('https://icons.iconarchive.com/icons/sirea/angry-birds/256/Bird-red-icon.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: none;
+}
+
+#birdbutton::before {
+
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -2.5px;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    z-index: 1;
+
+}
+
+#leguanabutton {
+    background-image: url('https://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22284-lizard-icon.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: none;
+}
+
+#leguanabutton::before {
+
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    z-index: 1;
+
+}
+
+#rabbitbutton {
+    background-image: url('https://icons.iconarchive.com/icons/fasticon/easter-rabbits/256/blue-rabbit-icon.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: none;
+}
+
+#rabbitbutton::before {
+
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: -2px;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    z-index: 1;
+
+}
+
+#otherbutton {
+    background-image: url('https://icons.iconarchive.com/icons/iconoir-team/iconoir/256/play-icon.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: none;
+}
+
+
+
+#bottomul button {
+    text-align: center;
+    color: white;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transition:0.3s;
+
+}
+
+#bottomul button:hover {
+    scale:1.2;
+}
+
+#boardingbutton {
+    
+    background-color: rgb(186, 216, 68);
+    border: none;
+    border-radius: 20px;
+    position:relative;
+    transform: perspective(100px) rotateX(-10deg) rotateY(-10deg) rotateZ(-10deg); 
+    z-index:2;
+   
+}
+ #boardingbutton::before {
+
+    content:'';
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    border-radius:20px;
+    border:1px solid rgb(186, 216, 68);
+    transform: scale(0.95) perspective(1000px) rotateX(-10deg) rotateY(-10deg) rotateZ(10deg);
+    z-index:1;
+ }
+
+#veterinarybutton {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.thesprucepets.com%2Fthmb%2FCGEwJeRS4chuCW6l2yrrTVKoREE%3D%2F5557x3709%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2Fportrait-of-veterinary-nurse-with-dog-on-table-in-veterinary-surgery-159615213-5a6e41b1a18d9e0037e8100a.jpg&f=1&nofb=1&ipt=428a29dcaf1fcdf812a4b2b15bdd226866f6f78f05340fbb4e16709955ad96d7&ipo=images');
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    border:none;
+    position:relative;
+    transform: perspective(100px) rotateX(-10deg) ; 
+    z-index:2;
+
+}
+
+#veterinarybutton::before {
+    content:'';
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    border-radius:20px;
+    border:1px solid lightblue;
+    transform: scale(0.95) rotateX(-10deg) rotateZ(15deg);
+    z-index:1;
+
+}
+
+#livevideobutton {
+    background-color: rgb(255, 93, 27);
+    border-radius: 20px;
+    border:none;
+    position:relative;
+    transform: perspective(300px) rotateX(-10deg) rotateY(-10deg) rotateZ(-5deg); 
+    z-index:2;
+   
+}
+
+#livevideobutton::before {
+
+    content:'';
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    border-radius:20px;
+    border:1px solid rgb(255, 93, 27);
+    transform: scale(0.95) perspective(1000px) rotateX(-10deg) rotateY(-10deg) rotateZ(10deg);
+    z-index:1;
+ }
+
+#trainingbutton {
+    background-color: rgb(186, 92, 237);
+    border-radius: 20px;
+    border:none;
+    position:relative;
+    transform: perspective(300px) rotateX(10deg) rotateY(10deg) rotateZ(5deg);
+    z-index:2;
+}
+
+#trainingbutton::before {
+
+    content:'';
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    border-radius:20px;
+    border:1px solid rgb(186, 92, 237);
+    transform: scale(0.95) perspective(1000px) rotateX(-10deg) rotateY(-10deg) rotateZ(25deg);
+    z-index:1;
+ }
+
+#groomingbutton {
+    background-color: rgb(52, 242, 195);
+    border-radius: 20px;
+    border:none;
+    position:relative;
+    transform: perspective(300px) rotateX(-10deg) rotateY(-20deg) rotateZ(-5deg);
+    z-index:2;
+}
+
+#groomingbutton::before {
+
+    content:'';
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    border-radius:20px;
+    border:1px solid rgb(52, 242, 195);
+    transform: scale(0.95) perspective(1000px) rotateX(-10deg) rotateY(-20deg) rotateZ(10deg);
+    z-index:1;
+ }
